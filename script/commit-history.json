@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1620089054481c8bf7ff9ed199964fe728b58e5b",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-04T12:36:34.000Z",
       "message": "feat:Empezamos desarrollando una funcion que devuelva cualquier cantidad de items ingresados",
-      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/1620089054481c8bf7ff9ed199964fe728b58e5b"
     },
     "stats": {
       "total": 7,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-04T13:16:21.000Z",
+      "message": "feat: Ahora el usuario tambien puede ingresar el precio del item",
+      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 36,
+      "deletions": 4,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
