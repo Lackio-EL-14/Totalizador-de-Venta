@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-04T12:33:07.000Z",
+      "message": "feat:Empezamos desarrollando una funcion que devuelva solo una cantidad de items ingresados",
+      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 38,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

@@ -1,0 +1,25 @@
+Plan de desarrollo TDD del totalizador de venta
+
+El usuario ingresa 3 cosas:
+    Cantidad de items 
+    Precio por item
+    Código de estado (ciudad de USA)  de 2 letras 
+
+Descuentos:
+Total de la orden	Tasa descuento
+         	1000            	3%
+        	3000            	5%
+        	7000	        	7%
+        	10000          	   10%
+        	30000          	   15%
+ 
+
+Impuestos por estado:
+Estado		Tasa de Impuesto
+        	UT               	6.65%
+        	NV               	8.00%
+        	TX                	6.25%
+        	AL                	4.00%
+        	CA                	8.25%
+
+
