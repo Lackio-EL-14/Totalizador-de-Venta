@@ -1,8 +1,9 @@
 
-function totalizador(items, precio) {
+function totalizador(items, precio, estado) {
     return {
         cantidad: items,
-        precio: precio
+        precio: precio,
+        estado: estado
     }
 }
 
