@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cda77aefe624fbe486a0221a91d3e58787b9cbfc",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-04T13:16:21.000Z",
       "message": "feat: Ahora el usuario tambien puede ingresar el precio del item",
-      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/cda77aefe624fbe486a0221a91d3e58787b9cbfc"
     },
     "stats": {
       "total": 40,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-04T13:47:16.000Z",
+      "message": "feat: Ahora muestra el estado",
+      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 16,
+      "deletions": 9,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
