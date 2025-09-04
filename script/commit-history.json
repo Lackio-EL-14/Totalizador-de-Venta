@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "97d1e0037cd14cdc08caecaaca8722770a1db5c3",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-04T12:33:07.000Z",
       "message": "feat:Empezamos desarrollando una funcion que devuelva solo una cantidad de items ingresados",
-      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/97d1e0037cd14cdc08caecaaca8722770a1db5c3"
     },
     "stats": {
       "total": 38,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-04T12:36:34.000Z",
+      "message": "feat:Empezamos desarrollando una funcion que devuelva cualquier cantidad de items ingresados",
+      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 5,
+      "deletions": 2,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
