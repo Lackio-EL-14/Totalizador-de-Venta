@@ -1,13 +1,52 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
   <title>Totalizador</title>
+  <style>
+    #togglebar {
+      display: flex;
+      gap: 0;
+      margin: 10px 0;
+    }
+    .estado-btn {
+      border: 1px solid #007bff;
+      background: #f8f9fa;
+      color: #007bff;
+      padding: 8px 16px;
+      cursor: pointer;
+      outline: none;
+      border-right: none;
+      transition: background 0.2s, color 0.2s;
+    }
+    .estado-btn:last-child {
+      border-right: 1px solid #007bff;
+    }
+    .estado-btn.selected {
+      background: #007bff;
+      color: #fff;
+    }
+    .estado-btn:not(:last-child) {
+      border-radius: 4px 0 0 4px;
+    }
+    .estado-btn:last-child {
+      border-radius: 0 4px 4px 0;
+    }
+  </style>
 </head>
 <body>
   <label>Cantidad: <input id="cantidad" type="number"></label>
   <label>Precio: <input id="precio" type="number"></label>
+
+<div id="togglebar">
+  <button class="estado-btn" data-estado="CA">CA</button>
+  <button class="estado-btn" data-estado="TX">TX</button>
+  <button class="estado-btn" data-estado="NY">NV</button>
+  <button class="estado-btn" data-estado="NY">UT</button>
+  <button class="estado-btn" data-estado="NY">AL</button>
+</div>
+<input type="hidden" id="estado" value="CA">
+
   <button id="calcular">Calcular</button>
   <div id="resultado"></div>
   <script type="module" src="./index.html"></script>
