@@ -76,17 +76,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c2f3981ee6852c750d702d48155e890c5b2a13e5",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-04T13:59:55.000Z",
       "message": "feat: se anadio la interfaz para estado",
-      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/c2f3981ee6852c750d702d48155e890c5b2a13e5"
     },
     "stats": {
       "total": 65,
       "additions": 59,
       "deletions": 6,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-04T14:22:48.000Z",
+      "message": "feat: Se mejoro la interfaz de estado",
+      "url": "https://github.com/Lackio-EL-14/Totalizador-de-Venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 10,
+      "deletions": 11,
       "date": "2025-09-04"
     },
     "coverage": 100,

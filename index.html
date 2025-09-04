@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <title>Totalizador</title>
   <style>
     #togglebar {
@@ -37,18 +37,17 @@
 <body>
   <label>Cantidad: <input id="cantidad" type="number"></label>
   <label>Precio: <input id="precio" type="number"></label>
-
-<div id="togglebar">
-  <button class="estado-btn" data-estado="CA">CA</button>
-  <button class="estado-btn" data-estado="TX">TX</button>
-  <button class="estado-btn" data-estado="NY">NV</button>
-  <button class="estado-btn" data-estado="NY">UT</button>
-  <button class="estado-btn" data-estado="NY">AL</button>
-</div>
-<input type="hidden" id="estado" value="CA">
-
+  <label for = "Estado">Escoja un Estado: </label>
+  <select estado ="esdato" id = "estado">
+    <option value ="UT">UT</option>
+    <option value ="NV">NV</option>
+    <option value ="TX">TX</option>
+    <option value ="AL">AL</option>
+    <option value ="CA">CA</option>
+  </select>
   <button id="calcular">Calcular</button>
   <div id="resultado"></div>
   <script type="module" src="./index.html"></script>
+  <script type="module" src="./src/presenter.js"></script>
 </body>
 </html>
